@@ -83,6 +83,21 @@ Tasks:
 
 **Progress**
 
+Pull requests opened:
+
+* [VirtualiZarr #1168](https://github.com/zarr-developers/VirtualiZarr/pull/1168): allow subchunking of the uncompressed ECCOFS `.avg` files
+* [gridlook #42](https://github.com/eeholmes/gridlook/pull/42): let gridlook identify lon/lat coordinates by CF standard names instead of a variable list
+
+Virtual datasets created:
+
+* [pacioos](https://source.coop/ocean-icechunks/pacioos)
+* [noaa-eccofs](https://source.coop/ocean-icechunks/noaa-eccofs)
+* [sscofs](https://source.coop/ocean-icechunks/sscofs) (sample)
+* [txla-roms](https://source.coop/ocean-icechunks/txla-roms)
+* [hycom](https://source.coop/ocean-icechunks/hycom)
+
+Viewed in gridlook:
+
 ![ECCOFS potential temperature shown in gridlook](/ioos-code-sprint/assets/eccofs-gridlook.png)
 
 A [forked copy of gridlook](https://rsignell.github.io/gridlook/) (adds CF-compliant discovery of lon/lat coordinates) displaying a virtual Icechunk of ECCOFS forward run data stored on Source Coop (`noaa-eccofs/eccofs-avg-best` in the Ocean Icechunks organization).
