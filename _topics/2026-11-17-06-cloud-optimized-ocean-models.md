@@ -96,6 +96,11 @@ Virtual datasets created:
 * [txla-roms](https://source.coop/ocean-icechunks/txla-roms)
 * [hycom](https://source.coop/ocean-icechunks/hycom)
 
+Work on testing the effect of different rechunking strategies on NOAA GNOME performance:
+
+* GitHub repo: [ChrisBarker-NOAA/OceanModelChunking](https://github.com/ChrisBarker-NOAA/OceanModelChunking)
+* Using [jbusecke/dynamic_chunks](https://github.com/jbusecke/dynamic_chunks/) for suggested chunk shapes
+
 Viewed in gridlook:
 
 ![ECCOFS potential temperature shown in gridlook](/ioos-code-sprint/assets/eccofs-gridlook.png)
